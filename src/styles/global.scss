@@ -2,6 +2,14 @@ $base-color: #c6538c;
 $color: rgba(black,0.88);
 
 body{
-    background-color: $base-color;
+    background-color: white;
     color: $color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+a{
+   text-decoration: none;
+   font-size: 70px;
 }
